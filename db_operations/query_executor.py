@@ -1,19 +1,24 @@
-import sys
 import os
-from sqlalchemy import text
-from db_operations.db_connections import create_connection, close_connection
-
+import sys
 # Add the project root directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from db_operations.db_connections import create_connection, close_connection
+
 def execute_query(query):
-    """Execute SQL query and return results."""
-    connection = create_connection()  # Reuse the existing connection from db_connection.py
+    """Execute SQL query and return results as a list of dictionaries."""
+    connection = create_connection()
+    cursor = connection.cursor(dictionary=True)  # Use dictionary cursor for row-to-dict conversion
     
-    # Execute the query using SQLAlchemy connection
-    with connection.connect() as conn:
-        # Wrap the query string in text() to make it executable
-        result = conn.execute(text(query)).fetchall()
-    
-    # No need to close connection manually as it's managed by SQLAlchemy's connection context
-    return result
+    try:
+        cursor.execute(query)
+        results = cursor.fetchall()
+    except Exception as err:
+        print(f"Error: {err}")
+        results = []
+
+    finally:
+        cursor.close()
+        close_connection(connection)  # Reuse the existing close_connection function
+
+    return results
