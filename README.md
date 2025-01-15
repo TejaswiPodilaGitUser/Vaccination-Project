@@ -1,45 +1,129 @@
-# Vaccination Data Analysis and Visualization
+# Vaccination Data Analysis Project
 
 ## Project Overview
+This project focuses on analyzing and visualizing global vaccination data to provide insights into vaccination trends, disease incidence, and resource allocation. It leverages Python for data extraction and cleaning, SQL for database management, and Power BI for interactive dashboards.
 
-This project focuses on the analysis and visualization of global vaccination data. It aims to provide insights into vaccination trends, disease incidence, and resource allocation using data-driven approaches. The project leverages Python for data extraction and cleaning, SQL for database management, and Power BI for interactive data visualization.
+---
 
-The key objective is to generate actionable insights to inform public health strategies, disease prevention, and global health policy formulation.
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Directory Structure](#directory-structure)
+- [Data Sources](#data-sources)
+- [Setup and Installation](#setup-and-installation)
+- [Key Features](#key-features)
+- [Deliverables](#deliverables)
+- [Insights Generated](#insights-generated)
+
+---
+
+## Introduction
+The Vaccination Data Analysis project aims to address key public health challenges by analyzing vaccination data and providing actionable insights. Key objectives include:
+- Understanding vaccination coverage trends over time and across regions.
+- Identifying regions with high disease incidence despite vaccination efforts.
+- Evaluating vaccination drop-off rates between doses.
+
+---
+
+## Technologies Used
+- **Python**: Data extraction, cleaning, and visualization.
+- **SQL**: Structured and normalized database setup.
+- **Power BI**: Interactive dashboards for data visualization.
+
+---
+
+## Directory Structure
+```
+Vaccination-Data-Analysis
+│
+├── analysis_scripts
+│   ├── plot_helpers.py
+│   ├── data_cleaning.py
+│   ├── data_extraction.py
+│
+├── cleaned_xlsx
+│   ├── cleaned_coverage_data.xlsx
+│   ├── cleaned_incidence_rate.xlsx
+│   ├── cleaned_reported_cases.xlsx
+│   ├── cleaned_vaccine_introduction.xlsx
+│   ├── cleaned_vaccine_schedule_data.xlsx
+│
+├── dashboards
+│   ├── vaccination_dashboard.pbix
+│
+├── database
+│   ├── create_tables.sql
+│   ├── insert_data.sql
+│   ├── queries.sql
+│
+├── README.md
+└── .env
+```
+
+---
+
+## Data Sources
+The analysis uses cleaned versions of the following datasets:
+1. `coverage_data.xlsx`: Vaccination coverage by region and year.
+2. `incidence_rate.xlsx`: Disease incidence rates across regions.
+3. `reported_cases.xlsx`: Reported cases of vaccine-preventable diseases.
+4. `vaccine_introduction.xlsx`: Details on vaccine introductions.
+5. `vaccine_schedule_data.xlsx`: National immunization schedules.
+
+---
+
+## Setup and Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd Vaccination-Data-Analysis
+   ```
+2. Set up a Python virtual environment and install dependencies:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+3. Configure database connection details in the `.env` file.
+   ```plaintext
+   DB_HOST=localhost
+   DB_USER=<your_db_user>
+   DB_PASSWORD=<your_db_password>
+   DB_NAME=<your_db_name>
+   ```
+4. Run SQL scripts in the `database` folder to set up and populate the database.
+5. Launch Power BI to view the dashboard in the `dashboards` folder.
+
+---
 
 ## Key Features
+- **Data Cleaning**: Handled missing values, inconsistent formats, and outliers.
+- **Exploratory Data Analysis**: 
+  - Trends in vaccination coverage.
+  - Correlations between vaccination coverage and disease incidence.
+- **Interactive Dashboards**: Power BI dashboards showcasing key insights.
 
-- **Data Extraction and Cleaning**: Python scripts for cleaning and transforming vaccination and disease data.
-- **SQL Database**: A structured and normalized database to store vaccination data, disease incidence, and other relevant metrics.
-- **Visualization**: Use of various chart types (bar charts, line charts, pie charts, scatter plots, geographical heatmaps) to analyze and visualize the data.
-- **Power BI Dashboards**: Interactive dashboards for better decision-making in public health and policy formulation.
+---
 
-## Tech Stack
+## Deliverables
+1. **Python Scripts**: For data extraction and cleaning.
+2. **SQL Database**: Structured and normalized for easy querying.
+3. **Power BI Dashboards**: Interactive visualizations with actionable insights.
 
-- **Python**: For data extraction, cleaning, and analysis.
-  - Libraries: Pandas, NumPy, Matplotlib, Plotly
-- **SQL**: For structured database setup and querying.
-  - MySQL (for database management)
-- **Power BI**: For creating interactive data visualizations and dashboards.
+---
 
-## Setup Instructions
+## Insights Generated
+- **Vaccination Trends**: Identified trends in vaccination uptake over time.
+- **Disease Incidence Analysis**: Highlighted regions with high disease incidence despite high vaccination rates.
+- **Resource Allocation**: Provided insights for targeted interventions in underperforming regions.
 
-### 1. Clone the Repository
+---
 
-Start by cloning the repository to your local machine:
+## Note
+Ensure that your database credentials are securely stored and not shared in public repositories.
 
-```bash
-git clone https://github.com/your-repo/vaccination-data-analysis.git
-```
 
-### 2. Navigate to the Project Directory
-Move into the project directory to set up and run the project:
-```bash
-cd vaccination-data-analysis
-```
-
-### 3. Install Required Dependencies
-Install Required Dependencies
-```bash
-pip install -r requirements.txt
-```
-
+## Plots
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
