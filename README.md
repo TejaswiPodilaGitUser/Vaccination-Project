@@ -124,6 +124,8 @@ Ensure that your database credentials are securely stored and not shared in publ
 
 
 ## Plots
+<img width="1652" alt="image" src="https://github.com/user-attachments/assets/64b88904-b7a8-422a-b9d1-40e9f69c6a51" />
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
