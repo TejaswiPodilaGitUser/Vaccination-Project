@@ -3,7 +3,10 @@ id_rsa_vac.pub.pub
 
 # Ignore Python bytecode files
 *.pyc
+*.pyc
 __pycache__/
-
+*/__pycache__/
 # Ignore specific file if needed
 r.cpython-311.pyc
+
+.DS_Store

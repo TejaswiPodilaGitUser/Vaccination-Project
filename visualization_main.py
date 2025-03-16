@@ -180,7 +180,7 @@ def main():
     # Create the main Tkinter window
     root = tk.Tk()
     root.title("Vaccination Data Visualizations")
-    root.geometry("1000x600")
+    root.geometry("500x200")
 
     # Create a frame for the scrollable area
     frame = ttk.Frame(root)
