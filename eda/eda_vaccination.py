@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-st. set_page_config(layout="wide")
+st.set_page_config(layout="wide")
 
 # Define the directory containing the cleaned datasets
 DATA_DIR = "cleaned_xlsx"
@@ -78,8 +78,8 @@ def plot_distributions(df):
 def main():
     st.title("Vaccination Data EDA")
     
-    # Sidebar selection for dataset
-    selected_dataset = st.sidebar.selectbox("Select a dataset", list(DATASETS.keys()))
+    # Move dataset selection to the main window
+    selected_dataset = st.selectbox("Select a dataset", list(DATASETS.keys()))
     
     # Load selected dataset
     df = load_data(DATASETS[selected_dataset])
