@@ -152,5 +152,33 @@ Tableau Plots
 
 
 
+Streamlit app screens
+
+<img width="1656" alt="image" src="https://github.com/user-attachments/assets/86193244-5665-4bad-8ed1-c071c76bd922" />
+
+<img width="1681" alt="image" src="https://github.com/user-attachments/assets/9c9026e7-7cb8-40d5-b4dd-d9caf81eb7bb" />
+
+<img width="1651" alt="image" src="https://github.com/user-attachments/assets/dc6b5f46-94a3-4db6-ae9f-0d3ef0f495d3" />
+
+<img width="1642" alt="image" src="https://github.com/user-attachments/assets/57d08f37-8523-45b5-8e38-dee449dd0576" />
+
+<img width="1665" alt="image" src="https://github.com/user-attachments/assets/0b2a7485-debc-4d34-8e4d-ad81b0477781" />
+
+<img width="1631" alt="image" src="https://github.com/user-attachments/assets/674642e8-7e3e-4e2b-b2ba-2fd1b9ba4e72" />
+
+
+<img width="1635" alt="image" src="https://github.com/user-attachments/assets/f5c627e6-75be-4270-a4be-eae0ed65597f" />
+
+<img width="1623" alt="image" src="https://github.com/user-attachments/assets/1a566613-9d3e-4995-9153-caea8835b0f4" />
+
+
+
+
+
+
+
+
+
+
 
 
