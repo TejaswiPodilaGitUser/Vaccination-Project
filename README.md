@@ -129,3 +129,28 @@ Ensure that your database credentials are securely stored and not shared in publ
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
+
+
+Tableau Plots
+
+<img width="1697" alt="image" src="https://github.com/user-attachments/assets/4e40e966-fec2-4ab8-9cb5-29e86c104469" />
+
+<img width="1371" alt="image" src="https://github.com/user-attachments/assets/3d6ec971-edd2-49e7-bf4a-34347aca6075" />
+
+<img width="1377" alt="image" src="https://github.com/user-attachments/assets/b0c1c29d-5516-47e7-8040-14ef152e87e7" />
+
+<img width="1498" alt="image" src="https://github.com/user-attachments/assets/4ab770f6-f25d-4a20-a10a-6087d0a6b35f" />
+
+<img width="1461" alt="image" src="https://github.com/user-attachments/assets/f8963fdf-dbc3-496c-ace7-0f98c1333f52" />
+
+<img width="1488" alt="image" src="https://github.com/user-attachments/assets/18a69e72-d5d3-4727-91c2-4313374ca04d" />
+
+
+<img width="1480" alt="image" src="https://github.com/user-attachments/assets/e6f8a649-6d52-43ee-9aae-acc2a2a071b4" />
+
+<img width="1491" alt="image" src="https://github.com/user-attachments/assets/76bcecdb-04f9-46d8-9a90-1d7546decf3f" />
+
+
+
+
+
