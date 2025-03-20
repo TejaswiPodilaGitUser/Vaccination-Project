@@ -10,3 +10,4 @@ __pycache__/
 r.cpython-311.pyc
 
 .DS_Store
+eda/merged_vaccination_data.csv
